@@ -1,7 +1,7 @@
 ﻿# Proyecto de Automatización - Jquery DattePicker 🛒
 
 Este proyecto implementa **pruebas automatizadas** utilizando **Serenity BDD** con el patrón **Screenplay**.  
-El objetivo principal es automatizar escenarios de compra en la página [DemoBlaze](https://www.demoblaze.com/),
+El objetivo principal es automatizar de calendario de compra en la página https://jqueryui.com/datepicker/,
 validando funcionalidades como agregar productos al carrito y verificar el total.
 
 ---
@@ -39,8 +39,8 @@ src
 ### 1. Clonar el proyecto
 
 ```bash
-git clone https://github.com/tuusuario/https://github.com/julimon80/SofTestPrueba.git
-cd SofTestPrueba
+git clone https://github.com/julimon80/RetoTecnico-SQA.git
+cd projetbase
 
 ```
 
@@ -59,14 +59,10 @@ gradle
 
 ### 📝 Escenarios automatizado -Ejemplo
 
-Esquema del escenario: Comprar productos
-Dado el usuario quiere agregar <productos> productos al carrito
-Cuando el usuario va al carrito de compras
-Entonces el usuario deberia ver los <productos> productos en el carrito
-Y el usuario deberia ver el total de los productos en el carrito
-Ejemplos:
-| productos |
-| 2 |
+Escenario:Validación de campo bloqueado
+Dado el usuario da click en el campo de fecha
+Cuando el usuario intensa ingresar manualmente una fecha
+Entonces el usuario deberia ver el campo vacio
 
 ### ✅ Reportes
 
